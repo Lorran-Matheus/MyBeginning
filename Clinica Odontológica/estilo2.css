@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.every {
+    width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(137, 231, 231);
+    font-size: 18px;
+    display: flex;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu li{
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    padding: 5px 5px; 
+    font-size: 16px; 
+    color: #fff; 
+    background-color: rgb(107, 211, 211);; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+}
+.footer {
+    background-color: rgb(90, 90, 90);
+    min-height: 150px;
+    text-align: left;
+    padding: 65px 0px 0px 20px;
+    font-size: 20px;
+    color:white;
+}
+
+table{
+    border: solid 1px black;
+    text-align:left;
+    margin: auto;
+}
+table th{
+    color:white;
+    background-color: black;
+}
+table td{
+    border: solid 1px black;
+}
+.form{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px
+}
+.form input{
+    text-align: right;
+    flex: 2;
+    padding: 3px;
+}
+.form textarea{
+    margin-top: 10px;
+    height: 40px;
+}
+.form label{
+    flex: 1;
+    text-align: left;
+}
